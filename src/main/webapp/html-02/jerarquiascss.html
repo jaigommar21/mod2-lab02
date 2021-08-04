@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        ul a{
+            color: red; /* Color de texto */
+        }
+        
+        div p{
+            background-color: grey; /* Color de fondo */ 
+        }
+        
+        div > a{
+            background-color: yellow; /* Color de fondo */ 
+        }
+        
+        [onclick]{
+            cursor: pointer; /* cursor de selección */ 
+        }
+        
+        button, a.boton, [type="button"]{
+            background-color: blue; /* Color de fondo */ 
+            border: 1px solid grey; /* grosor, tipo y color de borde */ 
+            color: white; /* Color de texto */ 
+            padding: 10px; /* Relleno entre el borde y el contenido */
+            border-radius: 5px; /* esquina redondeada a 5px */
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        
+        <p onclick="alert('Saludo')">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste deleniti eveniet soluta commodi et aspernatur, veniam veritatis dolorem possimus, illo nostrum provident nobis laudantium dignissimos velit. Optio dolore amet commodi.
+        </p>
+        
+        <a href="#">Página Principal</a>
+        
+        <ul>
+            <li><a href="#">Elemento 1</a></li>
+            <li><a href="#">Elemento 2</a></li>
+            <li><a href="#">Elemento 3</a></li>
+            <li><a href="#">Elemento 4</a></li>
+        </ul>
+        
+    </div>
+    
+    <p>
+        <a href="index.html">Inicio</a>
+    </p>
+    
+    <button>Boton1</button>
+    <a class="boton" href="#">Enlace 1</a>
+    <input type="button" value="Boton2">
+    
+</body>
+</html>
